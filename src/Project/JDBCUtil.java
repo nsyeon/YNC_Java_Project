@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-//DB ¿¬µ¿
+//DB ì—°ê²°
 public class JDBCUtil {
     public static Connection getConnection() {
         String server = "jdbc:mysql://localhost:3306/java?useSSL=false";
